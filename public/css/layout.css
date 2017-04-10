@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #6d80a0;
+    background-color: #0c131e;
+    margin: 0;
+}
+
+/* MAIN */
+
+main {
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 40px 0;
+    #alerts-container {
+        margin-top: -40px;
+        .alert {
+            margin-bottom: 40px;
+        }
+    }
+}
+h1, .h1 {
+    margin: 0 0 45px;
+    font-size: 24px;
+}
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
+}
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 14px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #313c4f;
+    background-color: #0e1622;
+    background-image: none;
+    border: 1px solid #313c4f;
+    border-radius: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #bac3d2;
+}
+
+.help-block a {
+    color: #01e985;
+}
+
+
+#home-container {
+    background: url(../images/bg-home.png) no-repeat center 0px;
+    background-size: contain;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 45px;
+    min-height: 600px;
+}
+
+#home-container .home-inner-container {
+    display: inline-block;
+    padding: 165px 0 0;
+    max-width: 700px;
+    width: 100%;
+}
+
+#home-container .home-inner-container h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    margin: 40px 0 15px;
+}
+
+#home-container .home-inner-container p {
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 40px;
+    width: 100%;
+}
